@@ -39,7 +39,7 @@ namespace Linq_1
 
             internal void SowNationals(Perpetrator perpetrator)
             {
-                string[] temp = perpetrator.GetnationalityBase();
+                string[] temp = perpetrator.GetNationalityBase();
 
                 foreach (string item in temp)
                 {
@@ -340,7 +340,7 @@ namespace Linq_1
                 GeneratePrisoner();
             }
 
-            internal string[] GetnationalityBase()
+            internal string[] GetNationalityBase()
             {
                 string[] nationalityBase = new string[_nationalityBase.Length];
 
