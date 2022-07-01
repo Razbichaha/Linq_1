@@ -90,27 +90,27 @@ namespace Linq_1
                     {
                         case ConsoleKey.W:
 
-                            SearchByW();
+                            SearchByWeight();
 
                             break;
                         case ConsoleKey.H:
 
-                            SearchByH();
+                            SearchByHeight();
 
                             break;
                         case ConsoleKey.N:
 
-                            SearchByN();
+                            SearchByNationality();
 
                             break;
                         case ConsoleKey.Z:
 
-                            SearchByZ();
+                            SearchByStatus();
 
                             break;
                         case ConsoleKey.A:
 
-                            SearchByA();
+                            ShowAll();
 
                             break;
                         case ConsoleKey.Escape:
@@ -123,7 +123,7 @@ namespace Linq_1
                 }
             }
 
-            private void SearchByW()
+            private void SearchByWeight()
             {
                 Console.Clear();
                 Console.Write("Введите вес - ");
@@ -157,7 +157,7 @@ namespace Linq_1
                 }
             }
 
-            private void SearchByH()
+            private void SearchByHeight()
             {
                 Console.Clear();
                 Console.Write("Введите рост - ");
@@ -187,7 +187,7 @@ namespace Linq_1
                 }
             }
 
-            private void SearchByN()
+            private void SearchByNationality()
             {
                 Console.Clear();
                 Console.WriteLine("Существующие национальности");
@@ -203,7 +203,7 @@ namespace Linq_1
                 }
             }
 
-            private void SearchByZ()
+            private void SearchByStatus()
             {
                 Console.Clear();
                 Console.WriteLine("Возможный статус");
@@ -219,7 +219,7 @@ namespace Linq_1
                 }
             }
 
-            private void SearchByA()
+            private void ShowAll()
             {
                 Console.WriteLine();
 
