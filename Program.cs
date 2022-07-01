@@ -337,7 +337,7 @@ namespace Linq_1
                 GenerateHeight();
                 GenerateWeight();
                 GenerateNationality();
-                GeneratePrisoner();
+                GenerateStatus();
             }
 
             internal string[] GetNationalityBase()
@@ -384,7 +384,7 @@ namespace Linq_1
                 Nationality = _nationalityBase[random.Next(minimumRandom, maximumRandom)];
             }
 
-            private void GeneratePrisoner()
+            private void GenerateStatus()
             {
                 Random random = new Random();
                 int minimumRandom = 0;
